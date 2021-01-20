@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="HomeCraft.Views.SiginInPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:ffsvg="clr-namespace:FFImageLoading.Svg.Forms;assembly=FFImageLoading.Svg.Forms"
+    xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core"
+    xmlns:material="clr-namespace:XF.Material.Forms.UI;assembly=XF.Material"
+    xmlns:prism="http://prismlibrary.com"
+    xmlns:yummy="clr-namespace:Xamarin.Forms.PancakeView;assembly=Xamarin.Forms.PancakeView"
+    ios:Page.UseSafeArea="true"
+    prism:ViewModelLocator.AutowireViewModel="True"
+    NavigationPage.HasNavigationBar="False">
+    <ScrollView>
+
+
+        <Grid
+            Padding="10"
+            BackgroundColor="{StaticResource GridBGColor}"
+            HorizontalOptions="FillAndExpand"
+            RowDefinitions="30,*,300"
+            VerticalOptions="FillAndExpand">
+            <Label
+                Grid.Row="0"
+                HorizontalOptions="End"
+                Style="{StaticResource LightSmallLabel}"
+                Text="Sign Up">
+                <Label.GestureRecognizers>
+                    <TapGestureRecognizer Command="{Binding GotoSignupPageCommand}" />
+                </Label.GestureRecognizers>
+
+            </Label>
+            <StackLayout Grid.Row="1">
+                <Label Style="{StaticResource DarkSemiBoldLabel}" Text="Welcome back!" />
+                <Label Style="{StaticResource LightSmallLabel}" Text="Log back into your account" />
+                <StackLayout Margin="0,40,0,0">
+
+                    <material:MaterialTextField
+                        AlwaysShowUnderline="True"
+                        BackgroundColor="Transparent"
+                        FloatingPlaceholderColor="{StaticResource LightDarkColor}"
+                        FloatingPlaceholderEnabled="True"
+                        FloatingPlaceholderFontSize="10"
+                        InputType="Email"
+                        Placeholder="Your Email"
+                        PlaceholderColor="{StaticResource LightDarkColor}"
+                        PlaceholderFontFamily="RegularFont"
+                        ReturnType="Next"
+                        ShouldAnimateUnderline="True"
+                        Text="{Binding Email}"
+                        TextColor="{StaticResource BlackColor}"
+                        TextFontFamily="RegularFont"
+                        TextFontSize="12"
+                        TintColor="{StaticResource LightDarkColor}" />
+                    <material:MaterialTextField
+                        AlwaysShowUnderline="True"
+                        BackgroundColor="Transparent"
+                        FloatingPlaceholderColor="{StaticResource LightDarkColor}"
+                        FloatingPlaceholderEnabled="True"
+                        FloatingPlaceholderFontSize="10"
+                        InputType="Email"
+                        Placeholder="Password"
+                        PlaceholderColor="{StaticResource LightDarkColor}"
+                        PlaceholderFontFamily="RegularFont"
+                        ReturnType="Next"
+                        ShouldAnimateUnderline="True"
+                        Text="{Binding Email}"
+                        TextColor="{StaticResource BlackColor}"
+                        TextFontFamily="RegularFont"
+                        TextFontSize="12"
+                        TintColor="{StaticResource LightDarkColor}" />
+
+                    <Grid Margin="0,10,0,0">
+                        <StackLayout HorizontalOptions="Start" Orientation="Horizontal">
+                            <Switch IsToggled="True" OnColor="{StaticResource YellowColor}" />
+                            <Label Style="{StaticResource LightSmallLabel}" Text="Remember me" />
+                        </StackLayout>
+                        <Label
+                            HorizontalOptions="End"
+                            Style="{StaticResource LightSmallLabel}"
+                            Text="Forget?">
+                            <Label.GestureRecognizers>
+                                <TapGestureRecognizer Command="{Binding FogetClickCommand}" />
+                            </Label.GestureRecognizers>
+                        </Label>
+
+                    </Grid>
+
+                    <yummy:PancakeView
+                        Margin="0,40,0,0"
+                        BackgroundColor="{StaticResource YellowColor}"
+                        CornerRadius="20"
+                        HeightRequest="50"
+                        HorizontalOptions="FillAndExpand">
+                        <yummy:PancakeView.GestureRecognizers>
+                            <TapGestureRecognizer Command="{Binding SigninCOmmand}" />
+                        </yummy:PancakeView.GestureRecognizers>
+                        <Label
+                            HorizontalOptions="Center"
+                            Style="{StaticResource PRofilePageLabel}"
+                            Text="Log In"
+                            VerticalOptions="Center" />
+                    </yummy:PancakeView>
+
+
+
+                </StackLayout>
+
+            </StackLayout>
+            <yummy:PancakeView
+                Grid.Row="2"
+                Margin="-10,0,-10,-10"
+                CornerRadius="0,0,60,60"
+                HorizontalOptions="FillAndExpand"
+                VerticalOptions="FillAndExpand">
+
+                <ffsvg:SvgCachedImage
+                    Aspect="AspectFill"
+                    HorizontalOptions="FillAndExpand"
+                    Source="backgroundfour.jpg"
+                    VerticalOptions="FillAndExpand" />
+
+
+            </yummy:PancakeView>
+
+
+        </Grid>
+    </ScrollView>
+</ContentPage>

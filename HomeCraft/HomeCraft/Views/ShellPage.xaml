@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Shell
+    x:Class="HomeCraft.Views.ShellPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:fonts="clr-namespace:HomeCraft.Models"
+    xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core"
+    xmlns:page="clr-namespace:HomeCraft.Views"
+    ios:Page.UseSafeArea="True">
+
+    <FlyoutItem Title="Furniture">
+        <FlyoutItem.Icon>
+            <FontImageSource
+                FontFamily="IconFont"
+                Glyph="{x:Static fonts:IconFont.SofaSingle}"
+                Color="Black" />
+        </FlyoutItem.Icon>
+        <Tab>
+            <ShellContent>
+                <page:FurniturePage />
+            </ShellContent>
+        </Tab>
+    </FlyoutItem>
+    <FlyoutItem Title="Top Designers">
+        <FlyoutItem.Icon>
+            <FontImageSource
+                FontFamily="IconFont"
+                Glyph="{x:Static fonts:IconFont.SofaSingle}"
+                Color="Black" />
+        </FlyoutItem.Icon>
+        <Tab>
+            <ShellContent>
+                <page:DesignersPage />
+            </ShellContent>
+        </Tab>
+    </FlyoutItem>
+    <FlyoutItem Title="Blog">
+        <FlyoutItem.Icon>
+            <FontImageSource
+                FontFamily="IconFont"
+                Glyph="{x:Static fonts:IconFont.SofaSingle}"
+                Color="Black" />
+        </FlyoutItem.Icon>
+        <Tab>
+            <ShellContent>
+                <page:BlogPage />
+            </ShellContent>
+        </Tab>
+    </FlyoutItem>
+    <FlyoutItem Title="Profile">
+        <FlyoutItem.Icon>
+            <FontImageSource
+                FontFamily="IconFont"
+                Glyph="{x:Static fonts:IconFont.SofaSingle}"
+                Color="Black" />
+        </FlyoutItem.Icon>
+        <Tab>
+            <ShellContent>
+                <page:ProfilePage />
+            </ShellContent>
+        </Tab>
+    </FlyoutItem>
+
+    <MenuItem Clicked="MenuItem_Clicked" Text="LogOut">
+        <MenuItem.IconImageSource>
+            <FontImageSource
+                FontFamily="IconFont"
+                Glyph="{x:Static fonts:IconFont.SofaSingle}"
+                Color="Black" />
+        </MenuItem.IconImageSource>
+    </MenuItem>
+
+    <!--  Using Tab  -->
+    <!--<TabBar>
+        <Tab Title="Home">
+            <Tab.Icon>
+                <FontImageSource FontFamily="IconFont" Glyph="{x:Static fonts:IconFont.SofaSingle}">
+                    <FontImageSource.Size>
+                        <OnPlatform x:TypeArguments="x:Double">
+                            <On Platform="iOS">20</On>
+                            <On Platform="Android">50</On>
+                        </OnPlatform>
+                    </FontImageSource.Size>
+                </FontImageSource>
+            </Tab.Icon>
+            <ShellContent ContentTemplate="{DataTemplate page:BlogPage}" />
+        </Tab>
+        <Tab Title="Favorite">
+            <Tab.Icon>
+                <FontImageSource FontFamily="IconFont" Glyph="{x:Static fonts:IconFont.SofaSingle}">
+                    <FontImageSource.Size>
+                        <OnPlatform x:TypeArguments="x:Double">
+                            <On Platform="iOS">20</On>
+                            <On Platform="Android">50</On>
+                        </OnPlatform>
+                    </FontImageSource.Size>
+                </FontImageSource>
+            </Tab.Icon>
+            <ShellContent ContentTemplate="{DataTemplate page:BlogPage}" />
+        </Tab>
+        <Tab Title="Favorite">
+            <Tab.Icon>
+                <FontImageSource FontFamily="IconFont" Glyph="{x:Static fonts:IconFont.SofaSingle}">
+                    <FontImageSource.Size>
+                        <OnPlatform x:TypeArguments="x:Double">
+                            <On Platform="iOS">20</On>
+                            <On Platform="Android">50</On>
+                        </OnPlatform>
+                    </FontImageSource.Size>
+                </FontImageSource>
+            </Tab.Icon>
+            <ShellContent Title="One" ContentTemplate="{DataTemplate page:BlogPage}" />
+            <ShellContent Title="two" ContentTemplate="{DataTemplate page:BlogPage}" />
+            <ShellContent Title="three" ContentTemplate="{DataTemplate page:BlogPage}" />
+        </Tab>
+
+
+    </TabBar>-->
+</Shell>

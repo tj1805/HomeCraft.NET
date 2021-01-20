@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ResourceDictionary
+    x:Class="HomeCraft.Styles.CustomTemplate"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:fonts="clr-namespace:HomeCraft.Models"
+    xmlns:yummy="clr-namespace:Xamarin.Forms.PancakeView;assembly=Xamarin.Forms.PancakeView">
+
+    <DataTemplate x:Key="BlogPageMainBanner">
+        <ContentView Padding="10,0,5,0">
+            <Grid ColumnDefinitions="*,50">
+                <yummy:PancakeView
+                    Grid.Column="0"
+                    Grid.ColumnSpan="2"
+                    CornerRadius="30"
+                    HeightRequest="300"
+                    HorizontalOptions="Fill"
+                    VerticalOptions="Fill">
+                    <Image Aspect="AspectFill" Source="{Binding Image}" />
+                </yummy:PancakeView>
+                <StackLayout Margin="20,0,0,30" VerticalOptions="End">
+
+                    <Label
+                        Style="{StaticResource DarkSemiBoldLabel}"
+                        Text="Minimalist"
+                        TextColor="White" />
+                    <Label
+                        Style="{StaticResource DarkSemiBoldLabel}"
+                        Text="Style Decor"
+                        TextColor="White" />
+                </StackLayout>
+
+                <Label
+                    Grid.Column="1"
+                    Margin="0,0,20,30"
+                    FontFamily="IconFont"
+                    FontSize="20"
+                    HorizontalOptions="End"
+                    Text="{x:Static fonts:IconFont.ArrowRight}"
+                    TextColor="White"
+                    VerticalOptions="End" />
+            </Grid>
+        </ContentView>
+    </DataTemplate>
+
+    <DataTemplate x:Key="BlogPageLightBanner">
+        <ContentView Padding="10,0,5,0">
+            <Grid>
+                <yummy:PancakeView CornerRadius="20" HeightRequest="200">
+                    <Image Aspect="AspectFill" Source="{Binding Image}" />
+                </yummy:PancakeView>
+
+                <StackLayout VerticalOptions="End">
+                    <Label
+                        Margin="10,0,0,0"
+                        Style="{StaticResource PRofilePageLabel}"
+                        Text="{Binding Name}"
+                        TextColor="White" />
+                    <Label
+                        Margin="10,0,0,0"
+                        Style="{StaticResource PRofilePageLabel}"
+                        Text="{Binding Place}"
+                        TextColor="White" />
+                </StackLayout>
+
+            </Grid>
+        </ContentView>
+    </DataTemplate>
+
+    <DataTemplate x:Key="DesignerView">
+        <ContentView Margin="10,10,10,10">
+            <yummy:PancakeView
+                Margin="5,5,5,5"
+                Padding="10,10,10,10"
+                BackgroundColor="AliceBlue"
+                CornerRadius="20"
+                HasShadow="True"
+                HeightRequest="200">
+                <Grid ColumnDefinitions="2*,3*" RowDefinitions="150,50">
+                    <yummy:PancakeView
+                        Grid.Row="0"
+                        Grid.RowSpan="2"
+                        Grid.Column="0"
+                        Margin="0,0,10,0"
+                        CornerRadius="20">
+                        <Image
+                            Aspect="AspectFill"
+                            HorizontalOptions="FillAndExpand"
+                            Source="{Binding Image}"
+                            VerticalOptions="FillAndExpand" />
+                    </yummy:PancakeView>
+
+                    <StackLayout Grid.Row="0" Grid.Column="1">
+                        <Label
+                            HorizontalOptions="Start"
+                            Style="{StaticResource SemiBoldLabel}"
+                            Text="{Binding Name}"
+                            VerticalOptions="Start" />
+                        <Label
+                            FontSize="8"
+                            HorizontalOptions="Start"
+                            Style="{StaticResource LightSmallLabel}"
+                            Text="{Binding Description}"
+                            VerticalOptions="Center" />
+                    </StackLayout>
+
+                    <Grid Grid.Row="1" Grid.Column="1">
+                        <StackLayout HorizontalOptions="Start">
+                            <Label Style="{StaticResource PRofilePageLabel}" Text="{Binding Country}" />
+                            <Label Style="{StaticResource PRofilePageLabel}" Text="{Binding state}" />
+                        </StackLayout>
+                    </Grid>
+
+                    <Label
+                        Grid.Row="1"
+                        Grid.Column="2"
+                        FontFamily="IconFont"
+                        FontSize="20"
+                        HorizontalOptions="Start"
+                        Text="{x:Static fonts:IconFont.ArrowRight}"
+                        TextColor="Black"
+                        VerticalOptions="Center" />
+                </Grid>
+            </yummy:PancakeView>
+        </ContentView>
+    </DataTemplate>
+
+</ResourceDictionary>

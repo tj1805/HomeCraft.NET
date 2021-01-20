@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Shell
+    x:Class="HomeCraft.Views.PrismShellPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:fonts="clr-namespace:HomeCraft.Models"
+    xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core"
+    xmlns:page="clr-namespace:HomeCraft.Views"
+    xmlns:prism="http://prismlibrary.com"
+    ios:Page.UseSafeArea="True"
+    prism:ViewModelLocator.AutowireViewModel="True">
+
+
+    <Shell.FlyoutHeader>
+        <page:FlyoutHeader />
+    </Shell.FlyoutHeader>
+
+    <FlyoutItem Title="Furniture">
+        <FlyoutItem.Icon>
+            <FontImageSource
+                FontFamily="IconFont"
+                Glyph="{x:Static fonts:IconFont.SofaSingle}"
+                Color="Black" />
+        </FlyoutItem.Icon>
+        <Tab>
+            <ShellContent>
+                <page:FurniturePage />
+            </ShellContent>
+        </Tab>
+    </FlyoutItem>
+    <FlyoutItem Title="Top Designers">
+        <FlyoutItem.Icon>
+            <FontImageSource
+                FontFamily="IconFont"
+                Glyph="{x:Static fonts:IconFont.AccountCowboyHat}"
+                Color="Black" />
+        </FlyoutItem.Icon>
+        <Tab>
+            <ShellContent>
+                <page:DesignersPage />
+            </ShellContent>
+        </Tab>
+    </FlyoutItem>
+    <FlyoutItem Title="Blog">
+        <FlyoutItem.Icon>
+            <FontImageSource
+                FontFamily="IconFont"
+                Glyph="{x:Static fonts:IconFont.Blogger}"
+                Color="Black" />
+        </FlyoutItem.Icon>
+        <Tab>
+            <ShellContent>
+                <page:BlogPage />
+            </ShellContent>
+        </Tab>
+    </FlyoutItem>
+    <FlyoutItem Title="Profile">
+        <FlyoutItem.Icon>
+            <FontImageSource
+                FontFamily="IconFont"
+                Glyph="{x:Static fonts:IconFont.AccountTie}"
+                Color="Black" />
+        </FlyoutItem.Icon>
+        <Tab>
+            <ShellContent>
+                <page:ProfilePage />
+            </ShellContent>
+        </Tab>
+    </FlyoutItem>
+
+
+
+    <MenuItem Command="{Binding CallUsCommand}" Text="Give Us a Call">
+        <MenuItem.IconImageSource>
+            <FontImageSource
+                FontFamily="IconFont"
+                Glyph="{x:Static fonts:IconFont.Phone}"
+                Color="Black" />
+        </MenuItem.IconImageSource>
+    </MenuItem>
+
+    <MenuItem Command="{Binding LogOutCommand}" Text="LogOut">
+        <MenuItem.IconImageSource>
+            <FontImageSource
+                FontFamily="IconFont"
+                Glyph="{x:Static fonts:IconFont.Logout}"
+                Color="Black" />
+        </MenuItem.IconImageSource>
+    </MenuItem>
+
+
+</Shell>
