@@ -37,7 +37,7 @@
 
                     <material:MaterialTextField
                         AlwaysShowUnderline="True"
-                        BackgroundColor="Transparent"
+                        BackgroundColor="White"
                         FloatingPlaceholderColor="{StaticResource LightDarkColor}"
                         FloatingPlaceholderEnabled="True"
                         FloatingPlaceholderFontSize="10"
@@ -54,7 +54,7 @@
                         TintColor="{StaticResource LightDarkColor}" />
                     <material:MaterialTextField
                         AlwaysShowUnderline="True"
-                        BackgroundColor="Transparent"
+                        BackgroundColor="White"
                         FloatingPlaceholderColor="{StaticResource LightDarkColor}"
                         FloatingPlaceholderEnabled="True"
                         FloatingPlaceholderFontSize="10"

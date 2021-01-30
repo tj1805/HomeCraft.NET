@@ -11,25 +11,25 @@
         "dependencies": {
           "NETStandard.Library": "2.0.3",
           "Prism.DryIoc.Forms": "7.2.0.1422",
-          "XF.Material": "1.5.8",
-          "Xamarin.Essentials": "1.5.3.2",
+          "XF.Material": "1.7.7",
+          "Xamarin.Essentials": "1.6.1",
           "Xamarin.FFImageLoading.Forms": "2.4.11.982",
           "Xamarin.FFImageLoading.Svg.Forms": "2.4.11.982",
-          "Xamarin.Forms": "4.8.0.1687",
+          "Xamarin.Forms": "5.0.0.1931",
           "Xamarin.Forms.PancakeView": "1.3.7"
         },
         "runtime": {
           "HomeCraft.dll": {}
         }
       },
-      "Com.Airbnb.Xamarin.Forms.Lottie/3.0.3": {
+      "Com.Airbnb.Xamarin.Forms.Lottie/4.0.8": {
         "dependencies": {
-          "Xamarin.Forms": "4.8.0.1687"
+          "Xamarin.Forms": "5.0.0.1931"
         },
         "runtime": {
           "lib/netstandard2.0/Lottie.Forms.dll": {
-            "assemblyVersion": "3.0.3.0",
-            "fileVersion": "3.0.3.0"
+            "assemblyVersion": "4.0.8.0",
+            "fileVersion": "4.0.8.0"
           }
         }
       },
@@ -74,7 +74,7 @@
       "Prism.Forms/7.2.0.1422": {
         "dependencies": {
           "Prism.Core": "7.2.0.1422",
-          "Xamarin.Forms": "4.8.0.1687"
+          "Xamarin.Forms": "5.0.0.1931"
         },
         "runtime": {
           "lib/netstandard2.0/Prism.Forms.dll": {
@@ -83,14 +83,14 @@
           }
         }
       },
-      "Rg.Plugins.Popup/1.2.0.223": {
+      "Rg.Plugins.Popup/2.0.0.8": {
         "dependencies": {
-          "Xamarin.Forms": "4.8.0.1687"
+          "Xamarin.Forms": "5.0.0.1931"
         },
         "runtime": {
-          "lib/netstandard1.0/Rg.Plugins.Popup.dll": {
-            "assemblyVersion": "1.2.0.223",
-            "fileVersion": "1.2.0.223"
+          "lib/netstandard2.0/Rg.Plugins.Popup.dll": {
+            "assemblyVersion": "2.0.0.8",
+            "fileVersion": "2.0.0.8"
           }
         }
       },
@@ -182,7 +182,7 @@
           "System.Runtime": "4.3.0"
         }
       },
-      "Xamarin.Essentials/1.5.3.2": {
+      "Xamarin.Essentials/1.6.1": {
         "dependencies": {
           "System.Numerics.Vectors": "4.5.0"
         },
@@ -208,7 +208,7 @@
       "Xamarin.FFImageLoading.Forms/2.4.11.982": {
         "dependencies": {
           "Xamarin.FFImageLoading": "2.4.11.982",
-          "Xamarin.Forms": "4.8.0.1687"
+          "Xamarin.Forms": "5.0.0.1931"
         },
         "runtime": {
           "lib/netstandard1.0/FFImageLoading.Forms.dll": {
@@ -241,25 +241,25 @@
           }
         }
       },
-      "Xamarin.Forms/4.8.0.1687": {
+      "Xamarin.Forms/5.0.0.1931": {
         "runtime": {
           "lib/netstandard2.0/Xamarin.Forms.Core.dll": {
             "assemblyVersion": "2.0.0.0",
-            "fileVersion": "4.8.0.400"
+            "fileVersion": "5.0.0.616"
           },
           "lib/netstandard2.0/Xamarin.Forms.Platform.dll": {
             "assemblyVersion": "2.0.0.0",
-            "fileVersion": "4.8.0.400"
+            "fileVersion": "5.0.0.616"
           },
           "lib/netstandard2.0/Xamarin.Forms.Xaml.dll": {
             "assemblyVersion": "2.0.0.0",
-            "fileVersion": "4.8.0.400"
+            "fileVersion": "5.0.0.616"
           }
         }
       },
       "Xamarin.Forms.PancakeView/1.3.7": {
         "dependencies": {
-          "Xamarin.Forms": "4.8.0.1687"
+          "Xamarin.Forms": "5.0.0.1931"
         },
         "runtime": {
           "lib/netstandard2.0/Xamarin.Forms.PancakeView.dll": {
@@ -268,17 +268,17 @@
           }
         }
       },
-      "XF.Material/1.5.8": {
+      "XF.Material/1.7.7": {
         "dependencies": {
-          "Com.Airbnb.Xamarin.Forms.Lottie": "3.0.3",
-          "Rg.Plugins.Popup": "1.2.0.223",
-          "Xamarin.Essentials": "1.5.3.2",
-          "Xamarin.Forms": "4.8.0.1687"
+          "Com.Airbnb.Xamarin.Forms.Lottie": "4.0.8",
+          "Rg.Plugins.Popup": "2.0.0.8",
+          "Xamarin.Essentials": "1.6.1",
+          "Xamarin.Forms": "5.0.0.1931"
         },
         "runtime": {
           "lib/netstandard2.0/XF.Material.dll": {
-            "assemblyVersion": "1.5.8.0",
-            "fileVersion": "1.5.8.0"
+            "assemblyVersion": "1.7.7.0",
+            "fileVersion": "1.7.7.0"
           }
         }
       }
@@ -290,12 +290,12 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Com.Airbnb.Xamarin.Forms.Lottie/3.0.3": {
+    "Com.Airbnb.Xamarin.Forms.Lottie/4.0.8": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-Lf0Q4K5WiqjAJRH12BJUOCfoKIMiPWrpn7gMNBrX+6pwjSiSPE96EUakaag0Q2Xj5bn9vJ48lVXlRoVIjBAgCw==",
-      "path": "com.airbnb.xamarin.forms.lottie/3.0.3",
-      "hashPath": "com.airbnb.xamarin.forms.lottie.3.0.3.nupkg.sha512"
+      "sha512": "sha512-8wA4CS9SqkRJj94UfsTGDZK6wv1Sw/WnbscDUx2k3nzv0jFI0TeoyNlJFzLo3RXBGG5mqASzwAEdTlEbvZ+cpA==",
+      "path": "com.airbnb.xamarin.forms.lottie/4.0.8",
+      "hashPath": "com.airbnb.xamarin.forms.lottie.4.0.8.nupkg.sha512"
     },
     "DryIoc.dll/4.0.7": {
       "type": "package",
@@ -346,12 +346,12 @@
       "path": "prism.forms/7.2.0.1422",
       "hashPath": "prism.forms.7.2.0.1422.nupkg.sha512"
     },
-    "Rg.Plugins.Popup/1.2.0.223": {
+    "Rg.Plugins.Popup/2.0.0.8": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-0ruzj7EedYRUhhsk327z7ymaHzf9E/n6Slg2ZJfOYqtZ14tX1dtWbyNRSmGEnWxLyN1qSq4Od4U6vYupHRpdtw==",
-      "path": "rg.plugins.popup/1.2.0.223",
-      "hashPath": "rg.plugins.popup.1.2.0.223.nupkg.sha512"
+      "sha512": "sha512-o5c/USJm480mPJB9l0NlHmcTJYM6qNhP+f0XRqLqJP8+xUGBF6y3TBn4pRVRGgbpfoS/nuTEX4oQex7fcA5IMg==",
+      "path": "rg.plugins.popup/2.0.0.8",
+      "hashPath": "rg.plugins.popup.2.0.0.8.nupkg.sha512"
     },
     "SkiaSharp/1.68.0": {
       "type": "package",
@@ -423,12 +423,12 @@
       "path": "system.threading.tasks/4.3.0",
       "hashPath": "system.threading.tasks.4.3.0.nupkg.sha512"
     },
-    "Xamarin.Essentials/1.5.3.2": {
+    "Xamarin.Essentials/1.6.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-BSLgDJUOPFRwTpQaftM+s4qb/MsTjrqXulEYDOcK6KF3i0Orf75zo3RwRfqnQ8WfpoEFxW/v0jgcPWCvOMgHxg==",
-      "path": "xamarin.essentials/1.5.3.2",
-      "hashPath": "xamarin.essentials.1.5.3.2.nupkg.sha512"
+      "sha512": "sha512-gG1Bp4j4bpJQ0dp9MeBJQJ9c8xULauIlhc7Cx5Qw4J2K1c+4Glq5n+gkb9Pm0UA/CevXVqLK5ZXmZkuYI52FgA==",
+      "path": "xamarin.essentials/1.6.1",
+      "hashPath": "xamarin.essentials.1.6.1.nupkg.sha512"
     },
     "Xamarin.FFImageLoading/2.4.11.982": {
       "type": "package",
@@ -458,12 +458,12 @@
       "path": "xamarin.ffimageloading.svg.forms/2.4.11.982",
       "hashPath": "xamarin.ffimageloading.svg.forms.2.4.11.982.nupkg.sha512"
     },
-    "Xamarin.Forms/4.8.0.1687": {
+    "Xamarin.Forms/5.0.0.1931": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-o9ACAbleXxorZzIHRBzIloPollwVC7+YTfxE8r3L2frArCHUkrHIy+K+azQag/Un4h2u88DS01HqR16/lMD8zQ==",
-      "path": "xamarin.forms/4.8.0.1687",
-      "hashPath": "xamarin.forms.4.8.0.1687.nupkg.sha512"
+      "sha512": "sha512-5xe9Oxtx2lHC0pinXGRLoUMEav3qxdtNemDF1UxCcxHcwv/Zcso2LhYw1LnemYhtESa6QGOD8dGM31A2pmteVg==",
+      "path": "xamarin.forms/5.0.0.1931",
+      "hashPath": "xamarin.forms.5.0.0.1931.nupkg.sha512"
     },
     "Xamarin.Forms.PancakeView/1.3.7": {
       "type": "package",
@@ -472,12 +472,12 @@
       "path": "xamarin.forms.pancakeview/1.3.7",
       "hashPath": "xamarin.forms.pancakeview.1.3.7.nupkg.sha512"
     },
-    "XF.Material/1.5.8": {
+    "XF.Material/1.7.7": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-S4C0vNIdgUqsJAg/menTmJdpMkXnZf5MgsTi7aRxgSuTzhLp8h7MM5ZEPGtHaIryYXv0/ddsWFmb8MZOy8IxBA==",
-      "path": "xf.material/1.5.8",
-      "hashPath": "xf.material.1.5.8.nupkg.sha512"
+      "sha512": "sha512-+SAYdqqem4Xi1ZfCF7YpsYlNvqMlblFMngqjPVcKU+Dsl0AQ8VmFbbMtriFU/JZZfWYb5S2P905h6EcWZK4nyQ==",
+      "path": "xf.material/1.7.7",
+      "hashPath": "xf.material.1.7.7.nupkg.sha512"
     }
   }
 }

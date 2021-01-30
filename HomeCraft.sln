@@ -9,11 +9,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeCraft.iOS", "HomeCraft\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeCraft", "HomeCraft\HomeCraft\HomeCraft.csproj", "{29A48C5A-DA0B-4BD2-97EE-47B9C96D812E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeCraft.WebApp", "HomeCraft.WebApp\HomeCraft.WebApp.csproj", "{3405F77F-C738-4953-94A5-EA74562539C9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeCraft.WebApp", "HomeCraft.WebApp\HomeCraft.WebApp.csproj", "{3405F77F-C738-4953-94A5-EA74562539C9}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B79C97A9-078A-488A-9D1A-13610A4ABB81} = {B79C97A9-078A-488A-9D1A-13610A4ABB81}
+	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeCraft.Core", "HomeCraft.Core\HomeCraft.Core.csproj", "{B79C97A9-078A-488A-9D1A-13610A4ABB81}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeCraft.Core", "HomeCraft.Core\HomeCraft.Core.csproj", "{B79C97A9-078A-488A-9D1A-13610A4ABB81}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeCraft.Data", "HomeCraft.Data\HomeCraft.Data.csproj", "{0108C958-4E73-4C3C-9A02-1BD73753C19C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeCraft.Data", "HomeCraft.Data\HomeCraft.Data.csproj", "{0108C958-4E73-4C3C-9A02-1BD73753C19C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

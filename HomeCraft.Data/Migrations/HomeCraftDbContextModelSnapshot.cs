@@ -25,15 +25,155 @@ namespace HomeCraft.Data.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 
-                    b.Property<string>("Description")
+                    b.Property<string>("ImageThumbnailUrl")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("ImageUrl")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("InStock")
+                        .HasColumnType("bit");
+
+                    b.Property<bool>("IsPieOfTheWeek")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("LongDescription")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Name")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<double>("Price")
+                        .HasColumnType("float");
+
+                    b.Property<string>("ShortDescription")
+                        .HasColumnType("nvarchar(max)");
+
                     b.HasKey("Id");
 
                     b.ToTable("Products");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = new Guid("d28888e9-2ba9-473a-a40f-e38cb54f9b35"),
+                            ImageUrl = "https://cdn.pixabay.com/photo/2016/04/18/13/53/room-1336497_960_720.jpg",
+                            InStock = false,
+                            IsPieOfTheWeek = false,
+                            LongDescription = "Donec tempus, sem a sollicitudin cursus, lectus quam vulputate risus, id hendrerit lorem eros varius ipsum. Nunc posuere ac arcu consequat suscipit. Proin turpis erat, ornare id nisl vel, rhoncus accumsan nibh. Sed fringilla odio vel interdum blandit. Proin nec mi et massa efficitur consequat non quis enim. Praesent dignissim mollis enim, sit amet pulvinar orci hendrerit vel. Aenean ac dapibus sapien, a lacinia sem. Ut maximus et nibh sit amet volutpat. In venenatis urna a neque dapibus faucibus.",
+                            Name = "Testing One",
+                            Price = 30.199999999999999,
+                            ShortDescription = "Lorem ipsum dolor sit amet."
+                        },
+                        new
+                        {
+                            Id = new Guid("d28888e9-2ba3-473a-a40f-e38cb57f9b31"),
+                            ImageUrl = "https://cdn.pixabay.com/photo/2014/09/15/21/46/couch-447484_960_720.jpg",
+                            InStock = false,
+                            IsPieOfTheWeek = false,
+                            LongDescription = "Etiam lorem neque, ultrices vitae nibh venenatis, vehicula posuere velit. Mauris in faucibus justo. Donec nec risus in massa consequat ultricies. Nam sagittis lorem erat, in aliquet tellus egestas sed. Vestibulum in tellus id augue molestie aliquam in quis magna. Curabitur finibus eu ipsum in ullamcorper.",
+                            Name = "Cras rhoncus",
+                            Price = 45.859999999999999,
+                            ShortDescription = "Molestie aliquam in quis magna"
+                        },
+                        new
+                        {
+                            Id = new Guid("d28888e9-2ba9-473a-a42f-e38cb54f9b33"),
+                            ImageUrl = "https://cdn.pixabay.com/photo/2017/03/28/12/13/chairs-2181968_960_720.jpg",
+                            InStock = false,
+                            IsPieOfTheWeek = false,
+                            LongDescription = "Duis posuere lorem lorem, non cursus sem bibendum nec. Donec pellentesque ex non augue egestas ultrices.",
+                            Name = "Nunc semper",
+                            Price = 74.959999999999994,
+                            ShortDescription = "Duis posuere lorem lorem"
+                        },
+                        new
+                        {
+                            Id = new Guid("d28888e9-2ba9-473a-a41f-e38cb54f9b32"),
+                            ImageUrl = "https://cdn.pixabay.com/photo/2016/11/22/23/38/apartment-1851201_960_720.jpg",
+                            InStock = false,
+                            IsPieOfTheWeek = false,
+                            LongDescription = "nisl vel pretium vulputate, sem leo aliquet eros, fermentum imperdiet ex purus in urna. Aenean non nisi semper, rhoncus neque nec, lobortis orci. Pellentesque sit amet porta est. Mauris arcu nulla, placerat eget nulla id,",
+                            Name = "vulputate",
+                            Price = 85.849999999999994,
+                            ShortDescription = "nisl vel pretium vulputate"
+                        },
+                        new
+                        {
+                            Id = new Guid("d28888e9-2ba9-473a-a40f-e38cb54f9b34"),
+                            ImageUrl = "https://cdn.pixabay.com/photo/2018/01/26/08/15/dining-room-3108037_960_720.jpg",
+                            InStock = false,
+                            IsPieOfTheWeek = false,
+                            LongDescription = "Aenean elementum placerat interdum. Fusce faucibus elit mauris, quis malesuada ex commodo nec. Quisque eu neque felis. Integer vulputate, diam et laoreet eleifend, dolor purus tempor ex, vitae porta enim justo ut ipsum. Etiam justo risus, varius ornare nunc vitae, hendrerit vestibulum arcu",
+                            Name = "Aenean elementum",
+                            Price = 85.849999999999994,
+                            ShortDescription = "Aenean elementum placerat interdum"
+                        },
+                        new
+                        {
+                            Id = new Guid("d28888e9-2ba9-473a-a42f-e38cb54f9b37"),
+                            ImageUrl = "https://cdn.pixabay.com/photo/2017/09/27/02/47/throne-2790789_960_720.png",
+                            InStock = false,
+                            IsPieOfTheWeek = false,
+                            LongDescription = "Fusce ornare velit in egestas ultricies. Nunc ligula augue, tristique vitae viverra eget, semper ut nibh. Duis fermentum lorem risus, et viverra nisl efficitur id. Nulla vulputate, magna et venenatis bibendum, sapien erat malesuada urna, et aliquet libero mi eget quam",
+                            Name = "Fusce ornare",
+                            Price = 65.150000000000006,
+                            ShortDescription = "Fusce ornare velit in egestas ultricies"
+                        },
+                        new
+                        {
+                            Id = new Guid("d28888e9-2ba9-473a-a42f-e38cb54f9b38"),
+                            ImageUrl = "https://cdn.pixabay.com/photo/2017/03/19/01/18/living-room-2155353_960_720.jpg",
+                            InStock = false,
+                            IsPieOfTheWeek = false,
+                            LongDescription = "Morbi a nibh faucibus orci gravida dapibus. Duis eu lorem quis felis ornare dapibus non a orci. Pellentesque et tincidunt lectus. Pellentesque feugiat magna sit amet ligula dignissim, eu congue eros eleifend. Mauris a turpis quis sem molestie placerat. Maecenas non nibh eu odio consequat molestie vel id ante. Lorem ipsum dolor",
+                            Name = "Morbi a nibh",
+                            Price = 24.75,
+                            ShortDescription = "Morbi a nibh faucibus orci gravida dapibus"
+                        },
+                        new
+                        {
+                            Id = new Guid("d28888e9-2ba9-473a-a42f-e38cb54f9b39"),
+                            ImageUrl = "https://cdn.pixabay.com/photo/2017/08/02/01/01/living-room-2569325_960_720.jpg",
+                            InStock = false,
+                            IsPieOfTheWeek = false,
+                            LongDescription = "Maecenas non nibh eu odio consequat molestie vel id ante. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut tempus lacus quis tortor scelerisque, sit amet maximus ligula suscipit. In sed tortor eros.",
+                            Name = "Ut tempus ",
+                            Price = 65.049999999999997,
+                            ShortDescription = "Ut tempus lacus quis tortor scelerisque"
+                        });
+                });
+
+            modelBuilder.Entity("HomeCraft.Core.Models.ShoppingCartItem", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<Guid?>("ProductId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<int>("Quantity")
+                        .HasColumnType("int");
+
+                    b.Property<string>("ShopingCartId")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("ShoppingCartItemid")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("ProductId");
+
+                    b.ToTable("ShoppingCartItems");
+                });
+
+            modelBuilder.Entity("HomeCraft.Core.Models.ShoppingCartItem", b =>
+                {
+                    b.HasOne("HomeCraft.Core.Models.Product", "Product")
+                        .WithMany()
+                        .HasForeignKey("ProductId");
                 });
 #pragma warning restore 612, 618
         }
