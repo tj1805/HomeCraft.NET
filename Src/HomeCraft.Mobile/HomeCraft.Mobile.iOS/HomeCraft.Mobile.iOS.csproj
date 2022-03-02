@@ -123,6 +123,7 @@
     <Reference Include="System.Numerics.Vectors" />
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD:Src/HomeCraft.Mobile/HomeCraft.Mobile.iOS/HomeCraft.Mobile.iOS.csproj
     <PackageReference Include="Xamarin.Forms" Version="5.0.0.2196" />
     <PackageReference Include="Xamarin.Essentials" Version="1.7.0" />
   </ItemGroup>
@@ -131,6 +132,31 @@
     <ProjectReference Include="..\HomeCraft.Mobile\HomeCraft.Mobile.csproj">
       <Project>{F7B58E59-4C1C-426B-AA71-8F73A6F2E500}</Project>
       <Name>HomeCraft.Mobile</Name>
+=======
+    <PackageReference Include="Prism.DryIoc.Forms">
+      <Version>7.2.0.1422</Version>
+    </PackageReference>
+    <PackageReference Include="Xamarin.FFImageLoading.Forms">
+      <Version>2.4.11.982</Version>
+    </PackageReference>
+    <PackageReference Include="Xamarin.FFImageLoading.Svg.Forms">
+      <Version>2.4.11.982</Version>
+    </PackageReference>
+    <PackageReference Include="Xamarin.Forms" Version="5.0.0.2012" />
+    <PackageReference Include="Xamarin.Essentials" Version="1.6.1" />
+    <PackageReference Include="Xamarin.Forms.PancakeView">
+      <Version>1.3.7</Version>
+    </PackageReference>
+    <PackageReference Include="XF.Material">
+      <Version>1.7.7</Version>
+    </PackageReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
+  <ItemGroup>
+    <ProjectReference Include="..\HomeCraft\HomeCraft.csproj">
+      <Project>{29A48C5A-DA0B-4BD2-97EE-47B9C96D812E}</Project>
+      <Name>HomeCraft</Name>
+>>>>>>> main:HomeCraft/HomeCraft.iOS/HomeCraft.iOS.csproj
     </ProjectReference>
   </ItemGroup>
 </Project>
