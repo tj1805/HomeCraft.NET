@@ -1,5 +1,5 @@
 ﻿<Properties StartupConfiguration="{8A201625-FD51-4CA4-B64F-4F77BF901A86}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="HomeCraft/HomeCraft/Views/SIgnUpPage.xaml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="HomeCraft/HomeCraft/Styles/Colors.xaml">
     <Files>
       <File FileName="HomeCraft/HomeCraft/Controls/BorderDisplayView.xaml.cs" Line="31" Column="46" />
       <File FileName="HomeCraft/HomeCraft/Controls/DataDisplayView.xaml" />
@@ -7,17 +7,24 @@
       <File FileName="HomeCraft.WebApp/Startup.cs" />
       <File FileName="HomeCraft/HomeCraft/Styles/Global.xaml" />
       <File FileName="HomeCraft/HomeCraft/Views/SIgnUpPage.xaml" Line="55" Column="79" />
+      <File FileName="HomeCraft/HomeCraft/Styles/Colors.xaml" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="HomeCraft" expanded="True" />
+          <Node name="HomeCraft" expanded="True">
+            <Node name="HomeCraft" expanded="True">
+              <Node name="Styles" expanded="True">
+                <Node name="Colors.xaml" expanded="True" selected="True" />
+              </Node>
+            </Node>
+          </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.HomeCraft.Android PreferredExecutionTarget="Android.pixel_2_pie_9_0_-_api_28" />
-  <MonoDevelop.Ide.ItemProperties.HomeCraft.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.F0930543-5DBF-4C48-9FBC-024CAB4AE45A" />
+  <MonoDevelop.Ide.ItemProperties.HomeCraft.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.795668A3-76BB-47DC-9960-C76DB624AED4" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
