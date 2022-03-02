@@ -13,7 +13,7 @@
 namespace HomeCraft.Styles {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Styles\\Colors.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Styles/Colors.xaml")]
     public partial class Colors : global::Xamarin.Forms.ResourceDictionary {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]

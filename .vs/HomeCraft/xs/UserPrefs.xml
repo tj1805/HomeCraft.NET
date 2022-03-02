@@ -1,0 +1,29 @@
+﻿<Properties StartupConfiguration="{8A201625-FD51-4CA4-B64F-4F77BF901A86}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="HomeCraft/HomeCraft/Views/SIgnUpPage.xaml">
+    <Files>
+      <File FileName="HomeCraft/HomeCraft/Controls/BorderDisplayView.xaml.cs" Line="31" Column="46" />
+      <File FileName="HomeCraft/HomeCraft/Controls/DataDisplayView.xaml" />
+      <File FileName="HomeCraft/HomeCraft/Controls/DataDisplayView.xaml.cs" />
+      <File FileName="HomeCraft.WebApp/Startup.cs" />
+      <File FileName="HomeCraft/HomeCraft/Styles/Global.xaml" />
+      <File FileName="HomeCraft/HomeCraft/Views/SIgnUpPage.xaml" Line="55" Column="79" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="HomeCraft" expanded="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.HomeCraft.Android PreferredExecutionTarget="Android.pixel_2_pie_9_0_-_api_28" />
+  <MonoDevelop.Ide.ItemProperties.HomeCraft.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.F0930543-5DBF-4C48-9FBC-024CAB4AE45A" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/admin/Projects/MeProj/HomeCraft.NET/HomeCraft/HomeCraft/App.xaml.cs" relfile="HomeCraft/HomeCraft/App.xaml.cs" line="1" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

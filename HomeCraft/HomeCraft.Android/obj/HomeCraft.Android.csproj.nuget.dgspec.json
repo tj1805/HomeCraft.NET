@@ -1,39 +1,33 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projects\\HomeCraft\\HomeCraft\\HomeCraft.Android\\HomeCraft.Android.csproj": {}
+    "/Users/admin/Projects/MeProj/HomeCraft.NET/HomeCraft/HomeCraft.Android/HomeCraft.Android.csproj": {}
   },
   "projects": {
-    "D:\\Projects\\HomeCraft\\HomeCraft\\HomeCraft.Android\\HomeCraft.Android.csproj": {
+    "/Users/admin/Projects/MeProj/HomeCraft.NET/HomeCraft/HomeCraft.Android/HomeCraft.Android.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\HomeCraft\\HomeCraft\\HomeCraft.Android\\HomeCraft.Android.csproj",
+        "projectUniqueName": "/Users/admin/Projects/MeProj/HomeCraft.NET/HomeCraft/HomeCraft.Android/HomeCraft.Android.csproj",
         "projectName": "HomeCraft.Android",
-        "projectPath": "D:\\Projects\\HomeCraft\\HomeCraft\\HomeCraft.Android\\HomeCraft.Android.csproj",
-        "packagesPath": "C:\\Users\\T.J\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\HomeCraft\\HomeCraft\\HomeCraft.Android\\obj\\",
+        "projectPath": "/Users/admin/Projects/MeProj/HomeCraft.NET/HomeCraft/HomeCraft.Android/HomeCraft.Android.csproj",
+        "packagesPath": "/Users/admin/.nuget/packages/",
+        "outputPath": "/Users/admin/Projects/MeProj/HomeCraft.NET/HomeCraft/HomeCraft.Android/obj/",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\T.J\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "/Users/admin/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "monoandroid10.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "monoandroid10.0": {
             "projectReferences": {
-              "D:\\Projects\\HomeCraft\\HomeCraft\\HomeCraft\\HomeCraft.csproj": {
-                "projectPath": "D:\\Projects\\HomeCraft\\HomeCraft\\HomeCraft\\HomeCraft.csproj"
+              "/Users/admin/Projects/MeProj/HomeCraft.NET/HomeCraft/HomeCraft/HomeCraft.csproj": {
+                "projectPath": "/Users/admin/Projects/MeProj/HomeCraft.NET/HomeCraft/HomeCraft/HomeCraft.csproj"
               }
             }
           }
@@ -72,7 +66,7 @@
             },
             "Xamarin.Forms": {
               "target": "Package",
-              "version": "[5.0.0.1931, )"
+              "version": "[5.0.0.2012, )"
             },
             "Xamarin.Forms.PancakeView": {
               "target": "Package",
@@ -82,28 +76,25 @@
         }
       }
     },
-    "D:\\Projects\\HomeCraft\\HomeCraft\\HomeCraft\\HomeCraft.csproj": {
+    "/Users/admin/Projects/MeProj/HomeCraft.NET/HomeCraft/HomeCraft/HomeCraft.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\HomeCraft\\HomeCraft\\HomeCraft\\HomeCraft.csproj",
+        "projectUniqueName": "/Users/admin/Projects/MeProj/HomeCraft.NET/HomeCraft/HomeCraft/HomeCraft.csproj",
         "projectName": "HomeCraft",
-        "projectPath": "D:\\Projects\\HomeCraft\\HomeCraft\\HomeCraft\\HomeCraft.csproj",
-        "packagesPath": "C:\\Users\\T.J\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\HomeCraft\\HomeCraft\\HomeCraft\\obj\\",
+        "projectPath": "/Users/admin/Projects/MeProj/HomeCraft.NET/HomeCraft/HomeCraft/HomeCraft.csproj",
+        "packagesPath": "/Users/admin/.nuget/packages/",
+        "outputPath": "/Users/admin/Projects/MeProj/HomeCraft.NET/HomeCraft/HomeCraft/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\T.J\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "/Users/admin/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -150,7 +141,7 @@
             },
             "Xamarin.Forms": {
               "target": "Package",
-              "version": "[5.0.0.1931, )"
+              "version": "[5.0.0.2012, )"
             },
             "Xamarin.Forms.PancakeView": {
               "target": "Package",
@@ -167,7 +158,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100/RuntimeIdentifierGraph.json"
         }
       }
     }

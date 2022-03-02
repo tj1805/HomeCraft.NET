@@ -13,7 +13,7 @@
 namespace HomeCraft.Styles {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Styles\\Global.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Styles/Global.xaml")]
     public partial class Global : global::Xamarin.Forms.ResourceDictionary {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]

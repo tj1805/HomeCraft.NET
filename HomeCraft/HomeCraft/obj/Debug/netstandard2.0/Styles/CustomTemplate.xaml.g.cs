@@ -13,7 +13,7 @@
 namespace HomeCraft.Styles {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Styles\\CustomTemplate.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Styles/CustomTemplate.xaml")]
     public partial class CustomTemplate : global::Xamarin.Forms.ResourceDictionary {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]

@@ -13,7 +13,7 @@
 namespace HomeCraft.Views {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views\\DesignerDetailPage.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views/DesignerDetailPage.xaml")]
     public partial class DesignerDetailPage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]

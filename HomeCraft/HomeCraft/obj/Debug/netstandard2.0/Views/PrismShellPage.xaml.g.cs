@@ -13,7 +13,7 @@
 namespace HomeCraft.Views {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views\\PrismShellPage.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views/PrismShellPage.xaml")]
     public partial class PrismShellPage : global::Xamarin.Forms.Shell {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]

@@ -13,7 +13,7 @@
 namespace HomeCraft.Views {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views\\SiginInPage.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views/SiginInPage.xaml")]
     public partial class SiginInPage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]

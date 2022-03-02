@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    x:Class="HomeCraft.Controls.DataDisplayView"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+    <Grid>
+        <Frame
+            BackgroundColor="#F2F2F2"
+            BorderColor="Black"
+            CornerRadius="30"
+            HasShadow="False"
+            HorizontalOptions="FillAndExpand">
+            <Grid ColumnDefinitions="*,*">
+                <Label
+                    HorizontalOptions="Start"
+                    Text="{Binding Source={x:Reference OneBankDataDisplay}, Path=Title}"
+                    TextColor="{AppThemeBinding Light={StaticResource Black},
+                                                Dark={StaticResource Black}}" />
+                <Label
+                    Grid.Column="1"
+                    HorizontalOptions="End"
+                    Text="{Binding Source={x:Reference OneBankDataDisplay}, Path=Value}"
+                    TextColor="{AppThemeBinding Light={StaticResource Black},
+                                                Dark={StaticResource Black}}" />
+            </Grid>
+        </Frame>
+    </Grid>
+
+</ContentPage>

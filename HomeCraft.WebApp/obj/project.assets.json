@@ -6282,39 +6282,36 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\T.J\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+    "/Users/admin/.nuget/packages/": {},
+    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projects\\HomeCraft\\HomeCraft.WebApp\\HomeCraft.WebApp.csproj",
+      "projectUniqueName": "/Users/admin/Projects/MeProj/HomeCraft.NET/HomeCraft.WebApp/HomeCraft.WebApp.csproj",
       "projectName": "HomeCraft.WebApp",
-      "projectPath": "D:\\Projects\\HomeCraft\\HomeCraft.WebApp\\HomeCraft.WebApp.csproj",
-      "packagesPath": "C:\\Users\\T.J\\.nuget\\packages\\",
-      "outputPath": "D:\\Projects\\HomeCraft\\HomeCraft.WebApp\\obj\\",
+      "projectPath": "/Users/admin/Projects/MeProj/HomeCraft.NET/HomeCraft.WebApp/HomeCraft.WebApp.csproj",
+      "packagesPath": "/Users/admin/.nuget/packages/",
+      "outputPath": "/Users/admin/Projects/MeProj/HomeCraft.NET/HomeCraft.WebApp/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\"
+        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\T.J\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "/Users/admin/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "D:\\Projects\\HomeCraft\\HomeCraft.Data\\HomeCraft.Data.csproj": {
-              "projectPath": "D:\\Projects\\HomeCraft\\HomeCraft.Data\\HomeCraft.Data.csproj"
+            "/Users/admin/Projects/MeProj/HomeCraft.NET/HomeCraft.Data/HomeCraft.Data.csproj": {
+              "projectPath": "/Users/admin/Projects/MeProj/HomeCraft.NET/HomeCraft.Data/HomeCraft.Data.csproj"
             }
           }
         }
@@ -6366,7 +6363,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100/RuntimeIdentifierGraph.json"
       }
     }
   }

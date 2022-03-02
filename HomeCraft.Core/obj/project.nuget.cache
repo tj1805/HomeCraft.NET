@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "it9DNlkpbWqn0ndGF3sJgncP0gOjhMty6i0mKU6xqvLbQJwJVnA+754cbZJPgs2crt42agj4hNU086qprZo8Tg==",
+  "dgSpecHash": "7+9qdzLVV2y0Wec62/+emSA5zrwhmMvUPtHbLs49ooL0bYPyv9ddzvU7s9+36lL0CSDQ/BJLwFGSg21Usb2ihg==",
   "success": true,
-  "projectFilePath": "D:\\Projects\\HomeCraft\\HomeCraft.Core\\HomeCraft.Core.csproj",
+  "projectFilePath": "/Users/admin/Projects/MeProj/HomeCraft.NET/HomeCraft.Core/HomeCraft.Core.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -13,7 +13,7 @@
 namespace HomeCraft.Views {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views\\FurniturePage.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views/FurniturePage.xaml")]
     public partial class FurniturePage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]

@@ -13,7 +13,7 @@
 namespace HomeCraft.Views {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views\\FlyoutHeader.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views/FlyoutHeader.xaml")]
     public partial class FlyoutHeader : global::Xamarin.Forms.ContentView {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
