@@ -1,9 +1,0 @@
-D:\Projects\HomeCraft\HomeCraft.Core\bin\Debug\netcoreapp3.1\HomeCraft.Core.deps.json
-D:\Projects\HomeCraft\HomeCraft.Core\bin\Debug\netcoreapp3.1\HomeCraft.Core.dll
-D:\Projects\HomeCraft\HomeCraft.Core\bin\Debug\netcoreapp3.1\HomeCraft.Core.pdb
-D:\Projects\HomeCraft\HomeCraft.Core\obj\Debug\netcoreapp3.1\HomeCraft.Core.csprojAssemblyReference.cache
-D:\Projects\HomeCraft\HomeCraft.Core\obj\Debug\netcoreapp3.1\HomeCraft.Core.AssemblyInfoInputs.cache
-D:\Projects\HomeCraft\HomeCraft.Core\obj\Debug\netcoreapp3.1\HomeCraft.Core.AssemblyInfo.cs
-D:\Projects\HomeCraft\HomeCraft.Core\obj\Debug\netcoreapp3.1\HomeCraft.Core.csproj.CoreCompileInputs.cache
-D:\Projects\HomeCraft\HomeCraft.Core\obj\Debug\netcoreapp3.1\HomeCraft.Core.dll
-D:\Projects\HomeCraft\HomeCraft.Core\obj\Debug\netcoreapp3.1\HomeCraft.Core.pdb
